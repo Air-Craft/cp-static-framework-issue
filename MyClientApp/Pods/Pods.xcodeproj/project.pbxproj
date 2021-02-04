@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F8E22C1B9C63825425AED59CCD406A2 /* JWTDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EEB0FDF996FFF90FA4ABC7F8C067AF /* JWTDecode.swift */; };
+		138647D32FFEBEC769F898917CA94D10 /* JWTDecode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3CE9FE0BC92F5C6092A933356F0B8D /* JWTDecode-dummy.m */; };
+		418844707E296D008B5DA9B89A4505A3 /* Pods-MyClientApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A9FAA582F3A8B0600DC58DC3723B9D /* Pods-MyClientApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43EB2E4654D295AB298D77E72C26FBAF /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66853DB87995A3153D6E1F18A6425B2 /* ValidationError.swift */; };
+		4EFAFAD7EBBA04B0FFEBE2EF2D4F82EA /* TokenValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0AD93C937E19359D47827DB699EB0 /* TokenValidators.swift */; };
+		7CA3CC6D90E04AF047F81EF8B338886C /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8748461FC484AD4EE91EFA484ACA1F9C /* Errors.swift */; };
+		94C54F5761E57BD75D1568E6395A1231 /* JWTDecode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D22331BCFF80569F8E2906AEF2553CBA /* JWTDecode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF8B8A82B023E4D547C7CBB1E0586B4 /* ValidatorJWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308D0DF12700FB623A09231A7103EC09 /* ValidatorJWT.swift */; };
+		A05E113508C07A5723E18D2D672A27A5 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C573D034F91D7A5EC4BB1E71AA88F9 /* JWT.swift */; };
+		A2551A808AB7BD4EAF528E3E66892F3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AA42FEA76A0F233B7298344A9B8068F0 /* Pods-MyClientApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC7610447BD6B3CF73124DBC8213C4D /* Pods-MyClientApp-dummy.m */; };
+		BBD67E9AAEC4F67ADD4D439A8E420D4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C9FDFCE4A51472BC46EDD34E99C74B5D /* A0JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F0B07F7958326A331D55A43F19B43 /* A0JWT.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		518994801B0770C17572A80E6B4FA3D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E1F0E7CBECE226FC294E79C21B0033;
+			remoteInfo = JWTDecode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DF0AD93C937E19359D47827DB699EB0 /* TokenValidators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenValidators.swift; path = JWTDecode/TokenValidators.swift; sourceTree = "<group>"; };
+		1D2882F196EE3394005C126663BEFD37 /* Pods-MyClientApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyClientApp.debug.xcconfig"; sourceTree = "<group>"; };
+		1E59786A2389D28A125589D5577CA011 /* Pods-MyClientApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyClientApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		266F0B07F7958326A331D55A43F19B43 /* A0JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = A0JWT.swift; path = JWTDecode/A0JWT.swift; sourceTree = "<group>"; };
+		28A9FAA582F3A8B0600DC58DC3723B9D /* Pods-MyClientApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyClientApp-umbrella.h"; sourceTree = "<group>"; };
+		308D0DF12700FB623A09231A7103EC09 /* ValidatorJWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidatorJWT.swift; path = JWTDecode/ValidatorJWT.swift; sourceTree = "<group>"; };
+		3E0D9E44A021EC881D66E6D3BB1AE801 /* Pods-MyClientApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyClientApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E3CE9FE0BC92F5C6092A933356F0B8D /* JWTDecode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWTDecode-dummy.m"; sourceTree = "<group>"; };
+		44EEB0FDF996FFF90FA4ABC7F8C067AF /* JWTDecode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWTDecode.swift; path = JWTDecode/JWTDecode.swift; sourceTree = "<group>"; };
+		6957A9A96FE37D0BABFE0276531992CC /* Pods-MyClientApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyClientApp.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A575314D86C93F54A030B790BE94A1D /* JWTDecode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JWTDecode-Info.plist"; sourceTree = "<group>"; };
+		7A8D4AC02B51FD03224739D06AEE207B /* JWTDecode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JWTDecode.framework; path = JWTDecode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B187DF16D0F96500697FDB0D35C30B /* Pods_MyClientApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyClientApp.framework; path = "Pods-MyClientApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8748461FC484AD4EE91EFA484ACA1F9C /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = JWTDecode/Errors.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD3895DEC010A0C1DF17697D5D3DD46 /* JWTDecode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWTDecode-prefix.pch"; sourceTree = "<group>"; };
+		C5F95912A38B4909DE4DD769190DD4C9 /* JWTDecode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JWTDecode.modulemap; sourceTree = "<group>"; };
+		C66853DB87995A3153D6E1F18A6425B2 /* ValidationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationError.swift; path = JWTDecode/ValidationError.swift; sourceTree = "<group>"; };
+		C8C573D034F91D7A5EC4BB1E71AA88F9 /* JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWT.swift; path = JWTDecode/JWT.swift; sourceTree = "<group>"; };
+		CFA0691B4B6B6FF803A974B2DDCCBD55 /* Pods-MyClientApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyClientApp-Info.plist"; sourceTree = "<group>"; };
+		CFC7610447BD6B3CF73124DBC8213C4D /* Pods-MyClientApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyClientApp-dummy.m"; sourceTree = "<group>"; };
+		D22331BCFF80569F8E2906AEF2553CBA /* JWTDecode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWTDecode-umbrella.h"; sourceTree = "<group>"; };
+		D6ABEB24775BDD744C142A31FEAB7DB1 /* Pods-MyClientApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyClientApp.release.xcconfig"; sourceTree = "<group>"; };
+		DA3E5FFF64676DF2EADCC5A045F3E4CD /* JWTDecode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWTDecode.release.xcconfig; sourceTree = "<group>"; };
+		EBEFF2065FD2B869F35E0FC7D4AE185C /* JWTDecode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWTDecode.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BDC48153C095CB69436DF73D732D6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD67E9AAEC4F67ADD4D439A8E420D4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04E98833232912D5083B84BEAAB8C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2551A808AB7BD4EAF528E3E66892F3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302A2155F6B984D27B4B3E47F536C67F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A8D4AC02B51FD03224739D06AEE207B /* JWTDecode.framework */,
+				80B187DF16D0F96500697FDB0D35C30B /* Pods_MyClientApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6521D718F26EAAAAAC3040F678F77113 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D08062FE5F03E0B28F11826528B9A49 /* JWTDecode */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67CA64AE7BB89B4141DBC4DACB1726F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB9FC031CB8D141BAC41A916CDF10E63 /* Pods-MyClientApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6D08062FE5F03E0B28F11826528B9A49 /* JWTDecode */ = {
+			isa = PBXGroup;
+			children = (
+				266F0B07F7958326A331D55A43F19B43 /* A0JWT.swift */,
+				8748461FC484AD4EE91EFA484ACA1F9C /* Errors.swift */,
+				C8C573D034F91D7A5EC4BB1E71AA88F9 /* JWT.swift */,
+				44EEB0FDF996FFF90FA4ABC7F8C067AF /* JWTDecode.swift */,
+				0DF0AD93C937E19359D47827DB699EB0 /* TokenValidators.swift */,
+				C66853DB87995A3153D6E1F18A6425B2 /* ValidationError.swift */,
+				308D0DF12700FB623A09231A7103EC09 /* ValidatorJWT.swift */,
+				9918878CA7DB713FE4C1B580E6ADBEA5 /* Support Files */,
+			);
+			name = JWTDecode;
+			path = JWTDecode;
+			sourceTree = "<group>";
+		};
+		9918878CA7DB713FE4C1B580E6ADBEA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5F95912A38B4909DE4DD769190DD4C9 /* JWTDecode.modulemap */,
+				3E3CE9FE0BC92F5C6092A933356F0B8D /* JWTDecode-dummy.m */,
+				7A575314D86C93F54A030B790BE94A1D /* JWTDecode-Info.plist */,
+				9DD3895DEC010A0C1DF17697D5D3DD46 /* JWTDecode-prefix.pch */,
+				D22331BCFF80569F8E2906AEF2553CBA /* JWTDecode-umbrella.h */,
+				EBEFF2065FD2B869F35E0FC7D4AE185C /* JWTDecode.debug.xcconfig */,
+				DA3E5FFF64676DF2EADCC5A045F3E4CD /* JWTDecode.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JWTDecode";
+			sourceTree = "<group>";
+		};
+		CB9FC031CB8D141BAC41A916CDF10E63 /* Pods-MyClientApp */ = {
+			isa = PBXGroup;
+			children = (
+				6957A9A96FE37D0BABFE0276531992CC /* Pods-MyClientApp.modulemap */,
+				1E59786A2389D28A125589D5577CA011 /* Pods-MyClientApp-acknowledgements.markdown */,
+				3E0D9E44A021EC881D66E6D3BB1AE801 /* Pods-MyClientApp-acknowledgements.plist */,
+				CFC7610447BD6B3CF73124DBC8213C4D /* Pods-MyClientApp-dummy.m */,
+				CFA0691B4B6B6FF803A974B2DDCCBD55 /* Pods-MyClientApp-Info.plist */,
+				28A9FAA582F3A8B0600DC58DC3723B9D /* Pods-MyClientApp-umbrella.h */,
+				1D2882F196EE3394005C126663BEFD37 /* Pods-MyClientApp.debug.xcconfig */,
+				D6ABEB24775BDD744C142A31FEAB7DB1 /* Pods-MyClientApp.release.xcconfig */,
+			);
+			name = "Pods-MyClientApp";
+			path = "Target Support Files/Pods-MyClientApp";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6521D718F26EAAAAAC3040F678F77113 /* Pods */,
+				302A2155F6B984D27B4B3E47F536C67F /* Products */,
+				67CA64AE7BB89B4141DBC4DACB1726F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F15E18E8EF37A28DC3DE685B6768442 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418844707E296D008B5DA9B89A4505A3 /* Pods-MyClientApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECAD41577CD6746098A5187989BA263 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C54F5761E57BD75D1568E6395A1231 /* JWTDecode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22E1F0E7CBECE226FC294E79C21B0033 /* JWTDecode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF21BF8518A6CE7E9AA908032E16A044 /* Build configuration list for PBXNativeTarget "JWTDecode" */;
+			buildPhases = (
+				9ECAD41577CD6746098A5187989BA263 /* Headers */,
+				F4024215203381D2B7BFCE7B8D4F35A0 /* Sources */,
+				3BDC48153C095CB69436DF73D732D6B3 /* Frameworks */,
+				E9E932436A72CE8BD6C09F00A91A34FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWTDecode;
+			productName = JWTDecode;
+			productReference = 7A8D4AC02B51FD03224739D06AEE207B /* JWTDecode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F155A559AE75241ED5B1AA9519A6D35 /* Pods-MyClientApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE34C2AC4802C902500E1414866C38F /* Build configuration list for PBXNativeTarget "Pods-MyClientApp" */;
+			buildPhases = (
+				1F15E18E8EF37A28DC3DE685B6768442 /* Headers */,
+				CFB3ED3A4625B1F357C8A7D077B4E5A1 /* Sources */,
+				D04E98833232912D5083B84BEAAB8C94 /* Frameworks */,
+				FE016B97DB9BF844486A08213B701B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A2489BFE639A3ABABD2B0100ABE5D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyClientApp";
+			productName = "Pods-MyClientApp";
+			productReference = 80B187DF16D0F96500697FDB0D35C30B /* Pods_MyClientApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 302A2155F6B984D27B4B3E47F536C67F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22E1F0E7CBECE226FC294E79C21B0033 /* JWTDecode */,
+				6F155A559AE75241ED5B1AA9519A6D35 /* Pods-MyClientApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9E932436A72CE8BD6C09F00A91A34FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE016B97DB9BF844486A08213B701B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB3ED3A4625B1F357C8A7D077B4E5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA42FEA76A0F233B7298344A9B8068F0 /* Pods-MyClientApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4024215203381D2B7BFCE7B8D4F35A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FDFCE4A51472BC46EDD34E99C74B5D /* A0JWT.swift in Sources */,
+				7CA3CC6D90E04AF047F81EF8B338886C /* Errors.swift in Sources */,
+				A05E113508C07A5723E18D2D672A27A5 /* JWT.swift in Sources */,
+				138647D32FFEBEC769F898917CA94D10 /* JWTDecode-dummy.m in Sources */,
+				0F8E22C1B9C63825425AED59CCD406A2 /* JWTDecode.swift in Sources */,
+				4EFAFAD7EBBA04B0FFEBE2EF2D4F82EA /* TokenValidators.swift in Sources */,
+				43EB2E4654D295AB298D77E72C26FBAF /* ValidationError.swift in Sources */,
+				9DF8B8A82B023E4D547C7CBB1E0586B4 /* ValidatorJWT.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5A2489BFE639A3ABABD2B0100ABE5D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JWTDecode;
+			target = 22E1F0E7CBECE226FC294E79C21B0033 /* JWTDecode */;
+			targetProxy = 518994801B0770C17572A80E6B4FA3D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21B98CA223197B030A67245014041EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3E5FFF64676DF2EADCC5A045F3E4CD /* JWTDecode.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWTDecode/JWTDecode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWTDecode/JWTDecode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/JWTDecode/JWTDecode.modulemap";
+				PRODUCT_MODULE_NAME = JWTDecode;
+				PRODUCT_NAME = JWTDecode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5E77C8810E60F51B2CBD6C27EBE9017C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBEFF2065FD2B869F35E0FC7D4AE185C /* JWTDecode.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWTDecode/JWTDecode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWTDecode/JWTDecode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/JWTDecode/JWTDecode.modulemap";
+				PRODUCT_MODULE_NAME = JWTDecode;
+				PRODUCT_NAME = JWTDecode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		73E57C6EA5CF471DEC4FEAF7FA2C71F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D2882F196EE3394005C126663BEFD37 /* Pods-MyClientApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyClientApp/Pods-MyClientApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyClientApp/Pods-MyClientApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F132E66E141DAFBAC8091D43FCEDEBEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6ABEB24775BDD744C142A31FEAB7DB1 /* Pods-MyClientApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyClientApp/Pods-MyClientApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyClientApp/Pods-MyClientApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE34C2AC4802C902500E1414866C38F /* Build configuration list for PBXNativeTarget "Pods-MyClientApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E57C6EA5CF471DEC4FEAF7FA2C71F4 /* Debug */,
+				F132E66E141DAFBAC8091D43FCEDEBEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF21BF8518A6CE7E9AA908032E16A044 /* Build configuration list for PBXNativeTarget "JWTDecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E77C8810E60F51B2CBD6C27EBE9017C /* Debug */,
+				21B98CA223197B030A67245014041EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

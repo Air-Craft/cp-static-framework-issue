@@ -1,0 +1,11 @@
+platform :ios, '12.0'
+source 'https://cdn.cocoapods.org/'
+
+use_frameworks! :linkage => :static 
+use_modular_headers!
+inhibit_all_warnings!
+
+
+target 'MyClientApp' do
+  pod 'JWTDecode'
+end

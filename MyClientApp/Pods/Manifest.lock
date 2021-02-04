@@ -1,0 +1,16 @@
+PODS:
+  - JWTDecode (2.5.0)
+
+DEPENDENCIES:
+  - JWTDecode
+
+SPEC REPOS:
+  trunk:
+    - JWTDecode
+
+SPEC CHECKSUMS:
+  JWTDecode: d4c176a28a29f7e6f9abf5c90ad3002f69b98c7c
+
+PODFILE CHECKSUM: fef406a3bd0cc2a93293a98e1650b7c03bac9b32
+
+COCOAPODS: 1.10.0
